@@ -1,39 +1,50 @@
 body {
 	font-family: "Montserrat";
+	text-align: center;
 }
 
-#title {
-	background-color: #ff4c68;
-	color: #fff;
-}
-
-.container-fluid {
-	padding: 3% 15% 7%;
-}
-
-h1 {
-	font-family: "Montserrat";
-	font-size: 3.5rem;
-	line-height: 1.5;
-}
-
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: "Monstserrat-Bold";
-	font-size: 3rem;
-	line-height: 1.5;
-}
-
-h3 {
-	font-family: "Montserrat-Bold";
-	font-size: 1.5rem;
 }
 
 p {
 	color: #8f8f8f;
 }
 
-/* Nav Bar */
+/* Headings */
+.big-heading {
+	font-family: "Montserrat";
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
 
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5rem;
+}
+
+/* Containers */
+
+.container-fluid {
+	padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+.white-section {
+	background-color: #fff;
+}
+
+/* Nav Bar */
 .navbar {
 	padding: 0 0 4.5rem;
 }
@@ -58,6 +69,12 @@ p {
 	margin: 5% 3% 5% 0;
 }
 
+/* Tittle Section */
+#title .container-fluid {
+	padding: 3% 15%;
+	text-align: left;
+}
+
 /* Tittle Image */
 .title-image {
 	width: 50%;
@@ -68,14 +85,15 @@ p {
 
 /* Features Section */
 #features {
-	padding: 7% 15%;
-	background-color: #fff;
 	position: relative;
 	z-index: 1;
 }
 
+.feature-title {
+	font-size: 1.5rem;
+}
+
 .feature-box {
-	text-align: center;
 	padding: 5%;
 }
 
@@ -92,10 +110,12 @@ p {
 
 /* testimonials Section */
 #testimonials {
-	padding: 7% 15%;
-	text-align: center;
 	background-color: #ef8172;
-	color: #fff;
+}
+
+.testimonial-text {
+	font-size: 3rem;
+	line-height: 1.5;
 }
 
 .testimonial-image {
@@ -104,13 +124,9 @@ p {
 	margin: 20px;
 }
 
-.carousel-item {
-	padding: 7% 15%;
-}
-
 #press {
 	background-color: #ef8172;
-	text-align: center;
+
 	padding-bottom: 3%;
 }
 
@@ -122,9 +138,47 @@ p {
 /* Pricing Section*/
 #pricing {
 	padding: 100px;
-	text-align: center;
+}
+
+.price-text {
+	font-size: 3rem;
+	line-height: 1.5;
 }
 
 .pricing-column {
 	padding: 3% 2%;
+}
+
+/* Call to action */
+
+.cta-heading {
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/* Footer */
+
+#footer i {
+	margin: 20px 10px;
+	cursor: pointer;
+	font-size: 24px;
+	transition: all ease 0.5s;
+}
+
+#footer i:hover {
+	transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		transform: rotate(0);
+		position: static;
+		margin-top: 20px;
+	}
 }
