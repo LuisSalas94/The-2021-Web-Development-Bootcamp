@@ -1,5 +1,8 @@
 # The-2021-Web-Development-Bootcamp
 
+![Screenshot_1](https://user-images.githubusercontent.com/57297709/110189120-08e65a00-7dec-11eb-842f-6bf848069de3.jpg)
+
+
 Throughout this comprehensive course, we cover a massive amount of tools and technologies, including:
 
 Front-End Web Development
