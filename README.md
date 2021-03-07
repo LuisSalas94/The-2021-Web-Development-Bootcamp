@@ -56,3 +56,9 @@ React Hooks
 Web Design
 
 Deployment with GitHub Pages, Heroku and MongoDB Atlas
+
+## Resources
+
+https://www.appbrewery.co/p/web-development-course-resources
+
+
